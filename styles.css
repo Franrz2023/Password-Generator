@@ -1,0 +1,140 @@
+* {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(24, 100%, 98.04%);
+
+}
+
+
+.title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 86px;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    color: rgb(19, 18, 15);
+
+    font-weight: bold;
+}
+
+img {
+    width: min(85%, 450px);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 1px 2px rgba(177, 175, 175, 0.427);
+}
+
+#btnCopy {
+    background-color: rgb(8, 0, 251);
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+    width: 84px;
+    border-radius: 55px;
+    height: 40px;
+}
+
+#btnCopy:hover {
+    background-color: rgba(222, 233, 10, 0.548);
+    font-weight: bolder;
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.resultPass {
+    border: 0.2px solid rgba(72, 72, 72, 0.29);
+    background-color: rgb(225, 27, 27);
+    margin: 9px;
+    padding: 5px;
+    color: rgb(19, 19, 19);
+    width: 557px;
+    font-size: 1.2rem;
+    background-color: rgba(226, 226, 227, 0.445);
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 60px;
+    text-align: center;
+
+}
+
+.copyAndvalue {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteinerSelect {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 6px;
+
+    flex-direction: column;
+    width: 300px;
+}
+
+.infoMarks {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.fa-refresh {
+    color: rgba(255, 255, 255, 0.954) !important;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 3px;
+    font-size: 2rem;
+    background-color: blue;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.modal1 {
+    background-color: rgb(217, 169, 12);
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    font-size: 22px;
+    z-index: 2;
+    top: 50%;
+    left: 42%;
+    border-radius: 8px;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+
+}
+
+.container {
+    z-index: 1;
+    position: relative;
+}
+
+.modalhidden {
+    display: none;
+
+}
+
+p {
+    font-size: 1.3rem;
+}
